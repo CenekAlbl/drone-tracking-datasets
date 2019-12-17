@@ -1,0 +1,7 @@
+cam0 - gopro3
+cam1 - mate7
+cam2 - mate10
+cam3 - sony5n_1440x1080
+cam4 - sony5100
+cam5 - sonyG
+
