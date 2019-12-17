@@ -1,0 +1,16 @@
+{
+    "comment":["Templete for providing camera information.",
+               "The path of this file should be included in the 'config.json' file under 'path_cameras'",
+               "K-matrix should be a 3*3 matrix",
+               "distCoeff should be a vector of [k1,k2,p1,p2[,k3]]"],
+
+    "K-matrix":[[1176.899407018602, 0.0, 702.661410507918], [0.0, 1572.936467868805, 532.023006642381], [0.0, 0.0, 1.0]],
+
+    "distCoeff":[-0.104075713538,  0.141342139932, -0.000084551089,
+        -0.000391293455, -0.068036995013],
+           
+    "fps":25,
+
+    "resolution":[1440,1080]
+
+}
