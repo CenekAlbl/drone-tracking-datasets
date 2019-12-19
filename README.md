@@ -2,7 +2,7 @@
 Multi-view drone tracking datasets
 
 # Dataset 1
-<p align="center">
+<p align="left">
 <img src="dataset1/cam0.jpg" width="200" alt="Camera 0 trajectory">
 <img src="dataset1/cam1.jpg" width="200" alt="Camera 1 trajectory">
 <img src="dataset1/cam2.jpg" width="200" alt="Camera 2 trajectory">
@@ -10,7 +10,7 @@ Multi-view drone tracking datasets
 </p>
 
 # Dataset 2
-<p align="center">
+<p align="left">
 <img src="dataset2/cam0.jpg" width="200" alt="Camera 0 trajectory">
 <img src="dataset2/cam1.jpg" width="200" alt="Camera 1 trajectory">
 <img src="dataset2/cam2.jpg" width="200" alt="Camera 2 trajectory">
@@ -18,7 +18,7 @@ Multi-view drone tracking datasets
 </p>
 
 # Dataset 3
-<p align="center">
+<p align="left">
 <img src="dataset3/cam0.jpg" width="200" alt="Camera 0 trajectory">
 <img src="dataset3/cam1.jpg" width="200" alt="Camera 1 trajectory">
 <img src="dataset3/cam2.jpg" width="200" alt="Camera 2 trajectory">
@@ -28,7 +28,7 @@ Multi-view drone tracking datasets
 </p>
 
 # Dataset 4
-<p align="center">
+<p align="left">
 <img src="dataset4/cam0.jpg" width="200" alt="Camera 0 trajectory">
 <img src="dataset4/cam1.jpg" width="200" alt="Camera 1 trajectory">
 <img src="dataset4/cam2.jpg" width="200" alt="Camera 2 trajectory">
@@ -36,6 +36,5 @@ Multi-view drone tracking datasets
 <img src="dataset4/cam4.jpg" width="200" alt="Camera 4 trajectory">
 <img src="dataset4/cam5.jpg" width="200" alt="Camera 5 trajectory">
 <img src="dataset4/cam6.jpg" width="200" alt="Camera 6 trajectory">
-<img src="dataset4/cam7.jpg" width="200" alt="Camera 7 trajectory">
 </p>
 
