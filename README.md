@@ -73,3 +73,9 @@ High difficulty dataset with many cameras, fast motion and moving clouds making 
 <img src="dataset4/cam6.jpg" width="200" alt="Camera 6 trajectory">
 </p>
 
+# Authors
+* **Cenek Albl** (cenek.albl-at-gmail.com) - *project lead*
+* **Jingtong Li** (tong226-at-hotmail.com) - *recording, GNSS, camera calibration*
+* **Jesse Murray** (jesse.r.murray-at-gmail.com) - *recording, camera calibration*
+* **Dorina Ismalii** (dorinaismaili01-at-gmail.com ) - *2D trajectories*
+
