@@ -8,10 +8,14 @@ This repository contains datasets where a flying drone (hexacopter) is captured 
 | 3 | Yes | Yes | Yes |
 | 4 | Yes | Yes | No |
 
-We provide calibration parameters as well as calibration images for each camera.
+We provide calibration parameters as well as calibration images for each camera. Each dataset contains also 2D detections of the drone provided by a simple algorithm based on background subtraction.
 
 # Dataset 1
 Easy dataset with short and slow flight.
+
+| # of cameras | Flight duration | 
+| --- | --- |
+| 4 | ~ 2min |
 
 <p align="left">
 <img src="dataset1/cam0.jpg" width="200" alt="Camera 0 trajectory">
@@ -20,8 +24,14 @@ Easy dataset with short and slow flight.
 <img src="dataset1/cam3.jpg" width="200" alt="Camera 3 trajectory">
 </p>
 
+
 # Dataset 2
-Easy dataset with short longer and faster flight.
+Easy dataset with longer and faster flight.
+
+| # of cameras | Flight duration | 
+| --- | --- |
+| 4 | ~ 2.5min |
+
 <p align="left">
 <img src="dataset2/cam0.jpg" width="200" alt="Camera 0 trajectory">
 <img src="dataset2/cam1.jpg" width="200" alt="Camera 1 trajectory">
@@ -30,7 +40,12 @@ Easy dataset with short longer and faster flight.
 </p>
 
 # Dataset 3
-Medium difficulty dataset with more cameras, various velocities and motion types.
+Medium difficulty dataset with more cameras, long flight, various velocities and motion types.
+
+| # of cameras | Flight duration | 
+| --- | --- |
+| 6 | ~ 9min |
+
 <p align="left">
 <img src="dataset3/cam0.jpg" width="200" alt="Camera 0 trajectory">
 <img src="dataset3/cam1.jpg" width="200" alt="Camera 1 trajectory">
@@ -42,6 +57,12 @@ Medium difficulty dataset with more cameras, various velocities and motion types
 
 # Dataset 4
 High difficulty dataset with many cameras, fast motion and moving clouds making the detection harder.
+
+| # of cameras | Flight duration | 
+| --- | --- |
+| 7 | ~ 7min |
+
+
 <p align="left">
 <img src="dataset4/cam0.jpg" width="200" alt="Camera 0 trajectory">
 <img src="dataset4/cam1.jpg" width="200" alt="Camera 1 trajectory">
