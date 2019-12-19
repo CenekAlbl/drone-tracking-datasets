@@ -77,11 +77,10 @@ High difficulty dataset with many cameras, fast motion and moving clouds making 
 * **Cenek Albl** (cenek.albl-at-gmail.com) - *project lead*
 * **Jingtong Li** (tong226-at-hotmail.com) - *data collection, GNSS, camera calibration*
 * **Jesse Murray** (jesse.r.murray-at-gmail.com) - *data collection, camera calibration*
-* **Dorina Ismalii** (dorinaismaili01-at-gmail.com ) - *2D trajectories*
+* **Chen-Chieh Liao, Dorina Ismalii** (dorinaismaili01-at-gmail.com ) - *2D trajectories*
 
 # Acknowledgement
 Special thanks to
 * [Fixposition](https://www.fixposition.ch) for providing the drone and the RTK system 
 * Alexander Wolf for the synchronization hardware
-* Chen-Chieh Liao for the background subtraction code
 * Riccardo De Lutio, Tom Manu, Stefano D'Aronco, Mikhail Usvyatsov for helping with data collection
