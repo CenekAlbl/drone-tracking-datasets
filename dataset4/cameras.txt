@@ -5,4 +5,3 @@ cam3 - mate10
 cam4 - sony5100
 cam5 - sonyG
 cam6 - sony5n_1440x1080
-cam7 - mi9
