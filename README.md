@@ -1,5 +1,7 @@
-# drone-tracking-datasets
-Multi-view drone tracking datasets
+# Multi-view drone tracking datasets
+This repository contains datasets where a flying drone (hexacopter) is captured with multiple consumer-grade cameras (smartphones, compact cameras, gopro,...) with highly accurate 3D drone trajectory ground truth. In some datasets, the ground truth temporal synchronization and ground truth camera locations are also provided. The table below gives a brief summary of what kind of data is available for each dataset.
+
+
 
 # Dataset 1
 <p align="left">
