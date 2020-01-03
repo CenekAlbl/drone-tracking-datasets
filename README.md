@@ -10,6 +10,9 @@ This repository contains datasets where a flying drone (hexacopter) is captured 
 
 We provide calibration parameters as well as calibration images for each camera. Each dataset contains also 2D detections of the drone provided by a simple algorithm based on background subtraction.
 
+# Installation
+The videos have been split into multiple archives using zip. To extract, use 7z or other zip archive manager or run the provided script `./unpack.sh` from the repository root directory which will extract all videos for you, provided that you have 7z installed.
+
 # Dataset 1
 Easy dataset with short and slow flight.
 
