@@ -1,0 +1,59 @@
+{
+    "comments":
+    [
+        "This is the templete for configure a dataset for the pipeline.",
+
+        "Further instruction goes here..."
+    ],
+
+    "necessary inputs":
+    {
+        "path_detections": ["detections/cam2.txt",
+                                "detections/cam5.txt",
+                                "detections/cam4.txt",
+                                "detections/cam1.txt",
+                                "detections/cam0.txt",
+                                "detections/cam3.txt"],
+
+        "path_cameras": ["../calibration/mate10/mate10.json",
+                         "../calibration/sonyG/sonyG_2.json",
+                         "../calibration/sony5100/sony5100.json",
+                         "../calibration/mate7/mate7.json",
+                         "../calibration/gopro3/gopro3.json",
+                         "../calibration/sony5n_1440x1080/sony5n_1440x1080.json"],
+                    
+        "corresponding_frames":[0, -782.480, 409.606, 461.677, -1102.890, -208.827]
+    },
+
+
+    "optional inputs":
+    {
+        "ground_truth": {"filepath":"trajectory/rtk.txt", "frequency":5}
+    },
+
+
+    "settings":
+    {
+        "num_detections": 100000,
+        "opt_calib": false,
+        "cf_exact": true,
+        "undist_points": true,
+        "rolling_shutter": false,
+        "init_rs": 1,
+        "motion_prior":false,
+        "motion_type":"KE",
+        "motion_reg":true,
+        "motion_weights":1000,
+        "cut_detection_second": 0.5,
+        "camera_sequence": [],
+        "ref_cam": 0,
+        "thres_Fmatix": 30,
+        "thres_PnP": 30,
+        "thres_outlier": 10,
+        "thres_triangulation": 20,
+        "smooth_factor": [10,15],
+        "sampling_rate": 0.5,
+        "path_output": "drone_tracking_datasets/dataset3_jm/dataset3.pkl"
+    }
+
+}
