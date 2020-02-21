@@ -1,0 +1,62 @@
+{
+    "comments":
+    [
+        "betas: Sony G: 3516", 
+        " Mate 10: 0 "
+    ],
+
+    
+    "necessary inputs":
+    {
+        "path_detections": ["detections/cam0.txt",
+                            "detections/cam1.txt",
+                            "detections/cam2.txt",
+                            "detections/cam3.txt",
+                            "detections/cam4.txt",
+                            "detections/cam5.txt",
+                            "detections/cam6.txt"],
+
+        
+        "path_cameras": ["../calibration/mate7/mate7.json",
+                         "../calibration/mate10/mate10_2.json",
+                         "../calibration/gopro3/gopro3.json",
+                         "../calibration/p20pro/p20pro.json",
+                         "../calibration/sony5100/sony5100.json",
+                         "../calibration/sonyG/sonyG_2.json",
+                         "../calibration/sony5n_1440x1080/sony5n_1440x1080.json"],
+                    
+        "corresponding_frames":[0, 92, -2255, 32, -238, 1136, -2502]
+    },
+
+
+    "optional inputs":
+    {
+        "ground_truth": {"filepath":"trajectory/rtk.txt", "frequency":5}
+    },
+
+
+    "settings":
+    {
+        "num_detections": 100000,
+        "opt_calib": false,
+        "cf_exact":true,
+        "sync_method":"iter",
+        "undist_points": true,
+        "rolling_shutter": true,
+        "init_rs": 1,
+        "motion_prior":false,
+        "motion_reg":false,
+        "motion_weights":100,
+        "cut_detection_second": 0.5,
+        "camera_sequence": [],
+        "ref_cam": 0,
+        "thres_Fmatix": 30,
+        "thres_PnP": 30,
+        "thres_outlier": 10,
+        "thres_triangulation": 20,
+        "smooth_factor": [10,20],
+        "sampling_rate": 0.5,
+        "path_output": "dataset4_rs.pkl"
+    }
+
+}
