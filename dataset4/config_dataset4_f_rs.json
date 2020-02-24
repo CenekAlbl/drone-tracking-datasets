@@ -42,7 +42,7 @@
         "cf_exact": true,
         "undist_points": true,
         "rolling_shutter": true,
-        "init_rs": 1,
+        "init_rs": 0,
         "motion_prior":false,
         "motion_type":"F",
         "motion_reg":true,
@@ -56,6 +56,6 @@
         "thres_triangulation": 20,
         "smooth_factor": [10,20],
         "sampling_rate": 0.5,
-        "path_output": "dataset4_f_rs.pkl"
+        "path_output": "result_f_rs.pkl"
     }
 }

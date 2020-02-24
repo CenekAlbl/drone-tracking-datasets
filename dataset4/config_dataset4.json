@@ -56,7 +56,7 @@
         "thres_triangulation": 20,
         "smooth_factor": [10,20],
         "sampling_rate": 0.5,
-        "path_output": "dataset4.pkl"
+        "path_output": "result.pkl"
     }
 
 }
