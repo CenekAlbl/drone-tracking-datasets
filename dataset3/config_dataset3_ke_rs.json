@@ -39,7 +39,7 @@
         "cf_exact": true,
         "undist_points": true,
         "rolling_shutter": true,
-        "init_rs": 1,
+        "init_rs": 0.5,
         "motion_prior":false,
         "motion_type":"KE",
         "motion_reg":true,
@@ -53,7 +53,7 @@
         "thres_triangulation": 20,
         "smooth_factor": [10,15],
         "sampling_rate": 0.5,
-        "path_output": "drone_tracking_datasets/dataset3_jm/dataset3.pkl"
+        "path_output": "result_ke_rs.pkl"
     }
 
 }
