@@ -33,8 +33,8 @@
         "rolling_shutter": true,
         "init_rs": 0,
         "motion_prior":false,
-        "motion_type":"F",
-        "motion_reg": false,
+        "motion_type":"KE",
+        "motion_reg": true,
         "motion_weights":10000,
         "cut_detection_second": 0.5,
         "camera_sequence": [],
@@ -45,7 +45,7 @@
         "thres_triangulation": 20,
         "smooth_factor": [10,15],
         "sampling_rate": 0.5,
-        "path_output": "output.pkl"
+        "path_output": "result_ke_rs.pkl"
     }
 
 }

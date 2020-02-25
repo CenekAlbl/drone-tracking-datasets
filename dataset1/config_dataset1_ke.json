@@ -35,7 +35,7 @@
         "motion_prior":false,
         "motion_type":"KE",
         "motion_reg": true,
-        "motion_weights":10000,
+        "motion_weights":1000,
         "cut_detection_second": 0.5,
         "camera_sequence": [],
         "ref_cam": 0,
@@ -45,7 +45,7 @@
         "thres_triangulation": 20,
         "smooth_factor": [10,15],
         "sampling_rate": 0.5,
-        "path_output": "output.pkl"
+        "path_output": "result_ke.pkl"
     }
 
 }

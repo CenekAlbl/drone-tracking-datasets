@@ -1,16 +1,16 @@
 {
     "necessary inputs":
     {
-        "path_detections": ["/scratch2/dev/drone-tracking-datasets/dataset2/detections/cam0.txt",
-            "/scratch2/dev/drone-tracking-datasets/dataset2/detections/cam1.txt",
-            "/scratch2/dev/drone-tracking-datasets/dataset2/detections/cam2.txt",
-            "/scratch2/dev/drone-tracking-datasets/dataset2/detections/cam3.txt"],
+        "path_detections": ["detections/cam0.txt",
+            "detections/cam1.txt",
+            "detections/cam2.txt",
+            "detections/cam3.txt"],
 
         "path_cameras": [
-            "/scratch2/dev/drone-tracking-datasets/calibration/iphone6/iphone6.json",
-            "/scratch2/dev/drone-tracking-datasets/calibration/p20pro/p20pro.json",
-            "/scratch2/dev/drone-tracking-datasets/calibration/sonyG/sonyG_1.json",
-            "/scratch2/dev/drone-tracking-datasets/calibration/sony5n_1920x1080/sony5n_1920x1080.json"
+            "../calibration/iphone6/iphone6.json",
+            "../calibration/p20pro/p20pro.json",
+            "../calibration/sonyG/sonyG_1.json",
+            "../calibration/sony5n_1920x1080/sony5n_1920x1080.json"
             ],
 
         "corresponding_frames": [0, 711.369, 1323.8, 321.154]
@@ -19,7 +19,7 @@
 
     "optional inputs":
     {
-        "ground_truth": {"filepath":"/scratch2/dev/drone-tracking-datasets/dataset2/trajectory/rtk.txt", "frequency":5}
+        "ground_truth": {"filepath":"trajectory/rtk.txt", "frequency":5}
     },
 
 
@@ -33,9 +33,9 @@
         "rolling_shutter": true,
         "init_rs": 0,
         "motion_prior":false,
-	"motion_type":"KE",
         "motion_reg":true,
-        "motion_weights":10000,
+	"motion_type":"KE",
+        "motion_weights":100,
         "cut_detection_second": 0.5,
         "camera_sequence": [],
         "ref_cam": 0,
@@ -45,7 +45,7 @@
         "thres_triangulation": 20,
         "smooth_factor": [10,15],
         "sampling_rate": 0.5,
-        "path_output": "output.pkl"
+        "path_output": "result_ke_rs.pkl"
     }
 
 }
