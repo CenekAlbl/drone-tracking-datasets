@@ -8,10 +8,10 @@
     
     "necessary inputs":
     {
-        "path_detections": ["detections/cam0.txt",
-                            "detections/cam1.txt",
-                            "detections/cam2.txt",
+        "path_detections": ["detections/cam2.txt",
                             "detections/cam3.txt",
+                            "detections/cam0.txt",
+                            "detections/cam1.txt",
                             "detections/cam4.txt",
                             "detections/cam5.txt",
                             "detections/cam6.txt"],
@@ -43,7 +43,7 @@
         "sync_method":"iter",
         "undist_points": true,
         "rolling_shutter": true,
-        "init_rs": 1,
+        "init_rs": 0,
         "motion_prior":false,
         "motion_reg":false,
         "motion_weights":100,
@@ -56,7 +56,7 @@
         "thres_triangulation": 20,
         "smooth_factor": [10,20],
         "sampling_rate": 0.5,
-        "path_output": "dataset4_rs.pkl"
+        "path_output": "result_rs.pkl"
     }
 
 }
