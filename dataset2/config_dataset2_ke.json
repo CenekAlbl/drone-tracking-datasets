@@ -34,7 +34,7 @@
         "init_rs": 1,
         "motion_prior":false,
         "motion_reg":true,
-	"motion_type":"KE",
+	    "motion_type":"KE",
         "motion_weights":100,
         "cut_detection_second": 0.5,
         "camera_sequence": [],
@@ -45,7 +45,7 @@
         "thres_triangulation": 20,
         "smooth_factor": [10,15],
         "sampling_rate": 0.5,
-        "path_output": "result_ke.pkl"
+        "path_output": "drone-tracking-datasets/dataset2/result_ke.pkl"
     }
 
 }
