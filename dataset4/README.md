@@ -1,6 +1,7 @@
 # Additional dataset info
 
 ## Ground truth synchronization parameters
+We provide ground truth time shift (beta) and time scaling parameters (alpha) between the camera streams. 
 
 ### Time scale (alpha)
 |Ref. camera | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
@@ -27,3 +28,16 @@
 Such that for each row: frame i in the reference camera corresponds to frame j = alpha * i + j in the other cameras.
 
 The camera ID's correspond to the order of cameras in cameras.txt file.
+
+### WARNING!
+Unfortunately, some of the smartphone cameras were recording at a variable frame rate. It is a feature of those smarthpones and cannot be changed. In some cases the fluctuation in FPS was very high, e.g. Mate 7 and Mate 10 in this dataset. If this is a problem, we suggest to extract the timestamps of each frame using ffprobe using the following command:
+
+```
+ffprobe -select_streams v:0 -of default=noprint_wrappers=1:nokey=1 -show_entries  packet=pts_time filename.mp4
+```
+
+Having the timestamps for each frame, one can use them in their pipeline. For our purposes, we required a fixed frame rate input so we remapped the detected image points using linear interpolation such that they would be 30fps fixed frame rate.
+
+The time mapping parameters in the tables above are also computed with the remapped frame rate of Mate 7 and Mate 10 to 30fps.
+
+If in doubt, please contact us for details.
