@@ -84,6 +84,7 @@ High difficulty dataset with many cameras, fast motion and moving clouds making 
 * **Jesse Murray** (jesse.r.murray-at-gmail.com) - *data collection, camera calibration*
 * **Chen-Chieh Liao** (liao86632769-at-gmail.com), **Dorina Ismalii** (dorinaismaili01-at-gmail.com ) - *2D trajectories*
 
+The work was conducted in the group of Photogrammetry and Remote Sensing, ETH Zurich.
 # Acknowledgement
 Special thanks to
 * [Fixposition](https://www.fixposition.ch) for providing the drone and the RTK system 
