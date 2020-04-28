@@ -1,4 +1,7 @@
 # Multi-view drone tracking datasets
+
+## UPDATE!!! - We are working on manually labeled 2D detections. They will be uploaded as avialable. So far they are avaialable for dataset 1.
+
 This repository contains datasets where a flying drone (hexacopter) is captured with multiple consumer-grade cameras (smartphones, compact cameras, gopro,...) with highly accurate 3D drone trajectory ground truth recorderd by a precise real-time RTK system from [Fixposition](https://www.fixposition.ch). In some datasets, the ground truth temporal synchronization and ground truth camera locations are also provided. The table below gives a brief summary of what kind of data is available for each dataset.
 
 | Dataset | 3D trajectory | Synchronization | Camera locations |
@@ -8,7 +11,7 @@ This repository contains datasets where a flying drone (hexacopter) is captured 
 | 3 | Yes | Yes | Yes |
 | 4 | Yes | Yes | No |
 
-We provide calibration parameters as well as calibration images for each camera. Each dataset contains also 2D detections of the drone provided by a simple algorithm based on background subtraction.
+We provide calibration parameters as well as calibration images for each camera. 
 
 If you use this dataset in your research, please cite [our paper](https://arxiv.org/abs/2003.04784) in which we estimate 3D trajectories from multiple unsynchronized cameras. 
 
