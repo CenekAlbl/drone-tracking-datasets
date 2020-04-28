@@ -88,6 +88,7 @@ High difficulty dataset with many cameras, fast motion and moving clouds making 
 * **Jingtong Li** (tong226-at-hotmail.com) - *data collection, GNSS, camera calibration*
 * **Jesse Murray** (jesse.r.murray-at-gmail.com) - *data collection, camera calibration*
 * **Chen-Chieh Liao** (liao86632769-at-gmail.com), **Dorina Ismalii** (dorinaismaili01-at-gmail.com ) - *2D trajectories*
+* **Mudathir Awadaljeed** (awadaljm-at-student.ethz.ch) - *Ground truth 2D labelling*
 
 The work was conducted in the group of Photogrammetry and Remote Sensing, ETH Zurich.
 # Acknowledgement
