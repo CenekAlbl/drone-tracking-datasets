@@ -10,6 +10,10 @@ This repository contains datasets where a flying drone (hexacopter) is captured 
 
 We provide calibration parameters as well as calibration images for each camera. Each dataset contains also 2D detections of the drone provided by a simple algorithm based on background subtraction.
 
+If you use this dataset in your research, please cite [our paper](https://arxiv.org/abs/2003.04784) in which we estimate 3D trajectories from multiple unsynchronized cameras. 
+
+The pipeline we developed can be found [here](https://github.com/CenekAlbl/mvus) .
+
 # Installation
 The videos have been split into multiple archives using zip. To extract, use 7z or other zip archive manager or run the provided script `./unpack.sh` from the repository root directory which will extract all videos for you, provided that you have 7z installed.
 
@@ -82,6 +86,7 @@ High difficulty dataset with many cameras, fast motion and moving clouds making 
 * **Jesse Murray** (jesse.r.murray-at-gmail.com) - *data collection, camera calibration*
 * **Chen-Chieh Liao** (liao86632769-at-gmail.com), **Dorina Ismalii** (dorinaismaili01-at-gmail.com ) - *2D trajectories*
 
+The work was conducted in the group of Photogrammetry and Remote Sensing, ETH Zurich.
 # Acknowledgement
 Special thanks to
 * [Fixposition](https://www.fixposition.ch) for providing the drone and the RTK system 
