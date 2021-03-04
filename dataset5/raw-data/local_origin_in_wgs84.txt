@@ -1,0 +1,2 @@
+Latitude(deg)   Longitude(deg)  Elevation(m)
+47.406149945	8.511420736	539.985

@@ -1,0 +1,7 @@
+cam0 - sonya5100
+cam1 - huaweiP40pro
+cam2 - gopro7
+cam3 - sonyG
+cam4 - samsungS10
+cam5 - sonynex5n
+

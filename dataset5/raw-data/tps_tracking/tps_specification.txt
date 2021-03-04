@@ -1,0 +1,4 @@
+Leica Nova TS 60
+Accuracy:
+Angle: 0.5''
+Distance: 0.6mm + 1ppm

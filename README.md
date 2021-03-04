@@ -23,7 +23,7 @@ The videos have been split into multiple archives using zip. To extract, use 7z 
 # Dataset 1
 Easy dataset with short and slow flight.
 
-| # of cameras | Flight duration | 
+| # of cameras | Flight duration |
 | --- | --- |
 | 4 | ~ 2min |
 
@@ -38,7 +38,7 @@ Easy dataset with short and slow flight.
 # Dataset 2
 Easy dataset with longer and faster flight.
 
-| # of cameras | Flight duration | 
+| # of cameras | Flight duration |
 | --- | --- |
 | 4 | ~ 2.5min |
 
@@ -52,7 +52,7 @@ Easy dataset with longer and faster flight.
 # Dataset 3
 Medium difficulty dataset with more cameras, long flight, various velocities and motion types.
 
-| # of cameras | Flight duration | 
+| # of cameras | Flight duration |
 | --- | --- |
 | 6 | ~ 9min |
 
@@ -68,7 +68,7 @@ Medium difficulty dataset with more cameras, long flight, various velocities and
 # Dataset 4
 High difficulty dataset with many cameras, fast motion and moving clouds making the detection harder.
 
-| # of cameras | Flight duration | 
+| # of cameras | Flight duration |
 | --- | --- |
 | 7 | ~ 7min |
 
@@ -82,13 +82,30 @@ High difficulty dataset with many cameras, fast motion and moving clouds making 
 <img src="dataset4/cam5.jpg" width="200" alt="Camera 5 trajectory">
 <img src="dataset4/cam6.jpg" width="200" alt="Camera 6 trajectory">
 </p>
+# Dataset 5
+
+A new challenging winter dataset with 6 cameras, snow covered background and multiple drones. The ground truth drone trajectory is estimated by fusing total station tracking and onboard IMU data.
+
+| Dataset | 3D trajectory | 3D orientation | Synchronization | Camera locations | 2D labels |
+| ------- | ------------- | -------------- | --------------- | ---------------- | --------- |
+| 5 (new) | Yes           | Yes            | Yes             | Yes              | Not yet   |
+
+| # of cameras | # of drones | Flight duration |
+| ------------ | ----------- | --------------- |
+| 6            | 3           | ~ 10min         |
+
+![alt text](./dataset5/assets/dataset_overview.jpg)
+
+Please check [here](https://github.com/YuePanEdward/drone-tracking-toolkits) for the principle and toolkits used for collecting and processing dataset 5.
 
 # Authors
+
 * **Cenek Albl** (cenek.albl-at-gmail.com) - *project lead*
 * **Jingtong Li** (tong226-at-hotmail.com) - *data collection, GNSS, camera calibration*
 * **Jesse Murray** (jesse.r.murray-at-gmail.com) - *data collection, camera calibration*
 * **Chen-Chieh Liao** (liao86632769-at-gmail.com), **Dorina Ismalii** (dorinaismaili01-at-gmail.com ) - *2D trajectories*
 * **Mudathir Awadaljeed** (awadaljm-at-student.ethz.ch) - *Ground truth 2D labelling*
+* **Yue Pan** (yuepan-at-student.ethz.ch) - *data collection of dataset 5*
 
 The work was conducted in the group of Photogrammetry and Remote Sensing, ETH Zurich.
 # Acknowledgement
