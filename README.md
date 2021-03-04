@@ -82,6 +82,7 @@ High difficulty dataset with many cameras, fast motion and moving clouds making 
 <img src="dataset4/cam5.jpg" width="200" alt="Camera 5 trajectory">
 <img src="dataset4/cam6.jpg" width="200" alt="Camera 6 trajectory">
 </p>
+
 # Dataset 5
 
 A new challenging winter dataset with 6 cameras, snow covered background and multiple drones. The ground truth drone trajectory is estimated by fusing total station tracking and onboard IMU data.
