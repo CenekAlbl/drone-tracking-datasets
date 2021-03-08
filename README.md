@@ -93,7 +93,7 @@ A new challenging winter dataset with 6 cameras, snow covered background and mul
 | 6            | 3           | ~ 10min         |
 
 <p align="left">
-<img src="./dataset5/assets/dataset_overview.jpg" width="850" alt="Dataset 5 Overview">
+<img src="./dataset5/assets/dataset_overview.jpg" width="800" alt="Dataset 5 Overview">
 </p>
 
 
