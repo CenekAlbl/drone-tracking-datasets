@@ -4,12 +4,13 @@
 
 This repository contains datasets where a flying drone (hexacopter) is captured with multiple consumer-grade cameras (smartphones, compact cameras, gopro,...) with highly accurate 3D drone trajectory ground truth recorderd by a precise real-time RTK system from [Fixposition](https://www.fixposition.ch). In some datasets, the ground truth temporal synchronization and ground truth camera locations are also provided. The table below gives a brief summary of what kind of data is available for each dataset.
 
-| Dataset | 3D trajectory | Synchronization | Camera locations | 2D labels |
-| --- | --- | --- | --- | --- |
-| 1 | Yes | No | No | Yes |
-| 2 | Yes | No | No | Yes |
-| 3 | Yes | Yes | Yes | Yes |
-| 4 | Yes | Yes | No | Yes |
+| Dataset | 3D trajectory | Synchronization | Camera locations | 2D labels | 3D orientation |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Yes | No | No | Yes | No |
+| 2 | Yes | No | No | Yes | No |
+| 3 | Yes | Yes | Yes | Yes | No |
+| 4 | Yes | Yes | No | Yes | No |
+| 5 | Yes | Yes | Yes | Yes | Yes |
 
 We provide calibration parameters as well as calibration images for each camera. 
 
@@ -18,7 +19,7 @@ If you use this dataset in your research, please cite [our paper](https://arxiv.
 The pipeline we developed can be found [here](https://github.com/CenekAlbl/mvus) .
 
 # Installation
-The videos have been split into multiple archives using zip. To extract, use 7z or other zip archive manager or run the provided script `./unpack.sh` from the repository root directory which will extract all videos for you, provided that you have 7z installed.
+The videos have been split into multiple archives using zip. To extract, use 7z or other zip archive manager or run the provided script `./unpack.sh` from the repository root directory which will extract all videos for you, provided that you have the latest 7z installed.
 
 # Dataset 1
 Easy dataset with short and slow flight.
@@ -87,15 +88,15 @@ High difficulty dataset with many cameras, fast motion and moving clouds making 
 
 A new challenging winter dataset with 6 cameras, snow covered background and multiple drones. The ground truth drone trajectory is estimated by fusing total station tracking and onboard IMU data.
 
-| Dataset | 3D trajectory | 3D orientation | Synchronization | Camera locations | 2D labels |
-| ------- | ------------- | -------------- | --------------- | ---------------- | --------- |
-| 5 (new) | Yes           | Yes            | Yes             | Yes              | Not yet   |
-
 | # of cameras | # of drones | Flight duration |
 | ------------ | ----------- | --------------- |
 | 6            | 3           | ~ 10min         |
 
-![alt text](./dataset5/assets/dataset_overview.jpg)
+<p align="left">
+<img src="./dataset5/assets/dataset_overview.jpg" width="850" alt="Dataset 5 Overview">
+</p>
+
+
 
 Please check [here](https://github.com/YuePanEdward/drone-tracking-toolkits) for the principle and toolkits used for collecting and processing dataset 5.
 
