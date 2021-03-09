@@ -20,3 +20,10 @@
 7z x dataset4/cam4/cam4.zip -odataset4
 7z x dataset4/cam5/cam5.zip -odataset4
 7z x dataset4/cam6/cam6.zip -odataset4
+7z x dataset5/videos/cam0/cam0.zip -odataset5
+7z x dataset5/videos/cam1/cam1.zip -odataset5
+7z x dataset5/videos/cam2/cam2.zip -odataset5
+7z x dataset5/videos/cam3/cam3.zip -odataset5
+7z x dataset5/videos/cam4/cam4.zip -odataset5
+7z x dataset5/videos/cam5/cam5.zip -odataset5
+
