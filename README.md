@@ -10,7 +10,7 @@ This repository contains datasets where a flying drone (hexacopter) is captured 
 | 2 | Yes | No | No | Yes | No |
 | 3 | Yes | Yes | Yes | Yes | No |
 | 4 | Yes | Yes | No | Yes | No |
-| 5 | Yes | Yes | Yes | Yes | Yes |
+| 5 | Yes | Yes | Yes | No | Yes |
 
 We provide calibration parameters as well as calibration images for each camera. 
 
